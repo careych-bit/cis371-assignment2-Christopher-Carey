@@ -96,6 +96,7 @@ const checkedSyrup = document.querySelector<HTMLElement>(
 if (checkedSyrup) {
   applySyrup(checkedSyrup);
 }
+
 setupSyrupListeners();
 
 function setupCreamListeners(): void {
